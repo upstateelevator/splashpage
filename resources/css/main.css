@@ -1,8 +1,21 @@
-.hero-image {
-	height: 100vh;
-	width: 100%;
+.get-notified {
+	margin: 0;
+	text-align: center;
 }
-
-.hero-image img {
+.get-notified button {
+	background-color: black;
+	border-radius: 0;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+.hero-image {
 	width: 50%;
+}
+.splash-text {
+	margin-bottom: 20px;
+	text-align: center;
+}
+.splash-text h3 {
+	font-weight: 200;
+	line-height: 150%;
 }
