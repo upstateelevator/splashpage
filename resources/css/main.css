@@ -1,6 +1,11 @@
+body {
+	margin: auto;
+	max-width: 1140px;
+}
 .get-notified {
-	margin: 0;
+	margin: auto;
 	text-align: center;
+	width: 50%;
 }
 .get-notified button {
 	background-color: black;
@@ -9,6 +14,8 @@
 	text-transform: uppercase;
 }
 .hero-image {
+	display: block;
+	margin: auto;
 	width: 50%;
 }
 .splash-text {
