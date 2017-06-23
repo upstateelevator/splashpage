@@ -1,7 +1,20 @@
+/* CORE */
 body {
 	margin: auto;
 	max-width: 1140px;
 }
+
+/* FONTS */
+.splash-text {
+	margin-bottom: 20px;
+	text-align: center;
+}
+.splash-text h3 {
+	font-weight: 200;
+	line-height: 150%;
+}
+
+/* SPLASH PAGE */
 .get-notified {
 	margin: auto;
 	text-align: center;
@@ -18,11 +31,46 @@ body {
 	margin: auto;
 	width: 50%;
 }
-.splash-text {
-	margin-bottom: 20px;
-	text-align: center;
+
+/* SPLASH MODAL */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
 }
-.splash-text h3 {
-	font-weight: 200;
-	line-height: 150%;
+.close:hover,
+.close:focus {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+.modal {
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+    height: 100vh;
+    left: 0;
+    overflow: auto;
+    position: fixed;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+}
+.modal-content {
+    background-color: #fefefe;
+    border: 1px solid #888;
+    height: 100%;
+    margin: 15% auto;
+    padding: 20px;
+    width: 80%;
+}
+.modal-footer button {
+    background-color: black;
+    border-radius: 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.modal-title {
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
