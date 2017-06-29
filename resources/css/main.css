@@ -17,13 +17,14 @@ body {
 /* SPLASH PAGE */
 .get-notified {
 	margin: auto;
-	margin-bottom:30px;
+	margin-bottom: 30px;
 	text-align: center;
 	width: 50%;
 }
 .get-notified button {
 	background-color: black;
 	border-radius: 0;
+	margin-bottom: 30px;
 	letter-spacing: 3px;
 	text-transform: uppercase;
 }
